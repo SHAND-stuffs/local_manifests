@@ -4,6 +4,9 @@
            fetch="https://github.com/Moto-Thorium"
            revision="master" />
 
+ <!-- Dependencies -->
+  <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" revision="lineage-18.1" /> <!-- Remove this line for lineage-18.1 -->
+
  <!-- Common -->
   <project path="device/motorola/msm8937-common" name="android_device_motorola_msm8937-common"     groups="device" remote="moto-thorium"/>
   <project path="vendor/motorola/msm8937-common" name="proprietary_vendor_motorola_msm8937-common" groups="device" remote="moto-thorium"/>
