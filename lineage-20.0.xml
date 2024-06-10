@@ -15,10 +15,6 @@
   <project path="device/motorola/msm8937-common" name="android_device_motorola_msm8937-common"     groups="device" remote="moto-thorium"/>
   <project path="vendor/motorola/msm8937-common" name="proprietary_vendor_motorola_msm8937-common" groups="device" remote="moto-thorium"/>
 
- <!-- moto8937_n -->
-  <project path="device/motorola/moto8937_n" name="android_device_motorola_moto8937_n" groups="device" remote="moto-thorium"/>
-  <project path="vendor/motorola/moto8937_n" name="proprietary_vendor_motorola_moto8937_n" groups="device" remote="moto-thorium"/>
-
  <!-- moto8937_o -->
   <project path="device/motorola/moto8937_o" name="android_device_motorola_moto8937_o" groups="device" remote="moto-thorium"/>
   <project path="vendor/motorola/moto8937_o" name="proprietary_vendor_motorola_moto8937_o" groups="device" remote="moto-thorium"/>
