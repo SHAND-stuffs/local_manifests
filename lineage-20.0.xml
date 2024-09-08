@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="moto-thorium"
-           fetch="https://github.com/Moto-Thorium"
+  <remote  name="shand-stuffs"
+           fetch="https://github.com/SHAND-stuffs"
            revision="master" />
 
   <remote  name="mi-thorium"
@@ -12,12 +12,12 @@
   <project path="system/tools/dtbtool" name="LineageOS/android_system_tools_dtbtool" revision="lineage-18.1" /> <!-- Remove this line for lineage-18.1 -->
 
  <!-- Common -->
-  <project path="device/motorola/msm8937-common" name="android_device_motorola_msm8937-common"     groups="device" remote="moto-thorium"/>
-  <project path="vendor/motorola/msm8937-common" name="proprietary_vendor_motorola_msm8937-common" groups="device" remote="moto-thorium"/>
+  <project path="device/motorola/msm8937-common" name="android_device_motorola_msm8937-common"     groups="device" remote="shand-stuffs"/>
+  <project path="vendor/motorola/msm8937-common" name="proprietary_vendor_motorola_msm8937-common" groups="device" remote="shand-stuffs"/>
 
  <!-- moto8937_o -->
-  <project path="device/motorola/moto8937_o" name="android_device_motorola_moto8937_o" groups="device" remote="moto-thorium"/>
-  <project path="vendor/motorola/moto8937_o" name="proprietary_vendor_motorola_moto8937_o" groups="device" remote="moto-thorium"/>
+  <project path="device/motorola/moto8937_o" name="android_device_motorola_moto8937_o" groups="device" remote="shand-stuffs"/>
+  <project path="vendor/motorola/moto8937_o" name="proprietary_vendor_motorola_moto8937_o" groups="device" remote="shand-stuffs"/>
 
  <!-- mithorium -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="mi-thorium"/>
